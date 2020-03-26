@@ -1,6 +1,7 @@
 import { button, secretParagraph } from './ticket';
+import '../css/main.scss';
 
-const showText = false;
+let showText = false;
 
 const toggleTextState = () => {
     showText = !showText;

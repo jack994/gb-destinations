@@ -2,6 +2,7 @@
   "name": "gb-destinations",
   "version": "1.0.0",
   "description": "Personal project",
+  "private": true,
   "scripts": {
     "build:dev": "webpack-dev-server",
     "build": "webpack -p",

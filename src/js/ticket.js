@@ -1,2 +1,2 @@
-export const button = document.querySelector('#hideShow');
-export const secretParagraph = document.querySelector('#secretParagraph')
+export const button = document.getElementById('hideShow');
+export const secretParagraph = document.getElementById('secretParagraph');

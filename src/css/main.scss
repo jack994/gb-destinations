@@ -3,6 +3,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-image: url("../resources/paper.jpg");
+    background-size: cover;
 }
 
 h1{
@@ -11,4 +13,12 @@ h1{
 
 p{
     margin: 30px auto;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
 }

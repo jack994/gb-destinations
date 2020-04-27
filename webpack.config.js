@@ -28,7 +28,17 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: extractTextPlugin.extract({
-                    use: ['css-loader', 'sass-loader']
+                    use: [
+                        {
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1,
+                            modules: {
+                                localIdentName: '[local]'
+                            }
+                        }
+                    },
+                    'sass-loader']
                 })
             },
             {

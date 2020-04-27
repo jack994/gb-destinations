@@ -1,8 +1,9 @@
 import { button, secretParagraph } from './ticket';
-import STYLES from '../css/main.scss';
+import styles from '../css/main.scss';
 
 const toggleTextState = () => {
-    secretParagraph.classList.toggle("invisible");
+    console.log(styles);
+    secretParagraph.classList.toggle(styles.invisible);
 };
 
 button.addEventListener('click', toggleTextState);
